@@ -1,4 +1,37 @@
+public class dataTypeObject {
+    public static void main(String[] args) {
+        Byte b = 100;
+        Short s = 32000;
+        Integer i = 1_000_000;
+        Long l = 123456789L;
+        Float f = 3.14f;
+        Double d = 2.71828;
+        Character c = 'J';
+        Boolean bool = true;
 
+        Integer.bitCount(i);
+        System.out.println("byte: " + b);
+        System.out.println("short: " + s);
+        System.out.println("int: " + i);
+        System.out.println("long: " + l);
+        System.out.println("float: " + f);
+        System.out.println("double: " + d);
+        System.out.println("char: " + c);
+        System.out.println("boolean: " + bool);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
 class DataType {
     private byte e;
     private int a;
@@ -45,4 +78,4 @@ public class dataTypeObject {
 
     dt.displayInfo();
     }
-}
+}*/
